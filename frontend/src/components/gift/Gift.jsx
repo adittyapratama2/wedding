@@ -2,7 +2,7 @@ import React from "react";
 import "./gift.css";
 
 const Gift = () => {
-  return <div>Gift</div>;
+  return <section id="gift">Gift</section>;
 };
 
 export default Gift;

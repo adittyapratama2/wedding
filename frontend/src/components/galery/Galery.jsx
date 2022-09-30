@@ -2,7 +2,7 @@ import React from "react";
 import "./galery.css";
 
 const Galery = () => {
-  return <div>Galery</div>;
+  return <section id="galery">Galery</section>;
 };
 
 export default Galery;

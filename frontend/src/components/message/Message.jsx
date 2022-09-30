@@ -2,7 +2,7 @@ import React from "react";
 import "./message.css";
 
 const Message = () => {
-  return <div>Message</div>;
+  return <section id="message">Message</section>;
 };
 
 export default Message;
