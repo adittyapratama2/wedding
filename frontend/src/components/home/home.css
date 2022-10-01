@@ -27,3 +27,29 @@
 .home__me-image:hover {
   transform: rotate(0);
 }
+
+.home__content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
+
+/* ============== Media Queries (Medium Device) ============== */
+@media screen and (max-width: 1024px) {
+  .home__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .home__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .home__content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ============== Media Queries (Small Device) ============== */
+@media screen and (max-width: 600px) {
+}

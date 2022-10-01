@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import ME from "../../assets/_ZM_7223.jpg";
 import ME2 from "../../assets/profileme2.png";
+import ME3 from "../../assets/profileme.png";
 
 const Home = () => {
   return (
@@ -29,6 +30,12 @@ const Home = () => {
             </blockquote>
             Unkown
           </p>
+          <div className="home__me-image2">
+            <img src={ME2} alt="me-img" />
+          </div>
+          <div className="home__me-image2">
+            <img src={ME3} alt="me-img" />
+          </div>
         </div>
       </div>
     </section>
