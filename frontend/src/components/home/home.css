@@ -6,6 +6,7 @@
 
 .home__me {
   width: 100%;
+  aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(
     45deg,
@@ -28,6 +29,29 @@
   transform: rotate(0);
 }
 
+.home__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.home__card {
+  background: var(--color-white);
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.home__card h5 {
+  font-size: 0.85rem;
+}
+
+.home__card small {
+  font-size: 0.6rem;
+}
+
 .home__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
@@ -43,6 +67,14 @@
   .home__me {
     width: 50%;
     margin: 2rem auto 4rem;
+  }
+
+  .home__cards {
+    gap: 1rem;
+  }
+
+  .home__content {
+    text-align: center;
   }
 
   .home__content p {

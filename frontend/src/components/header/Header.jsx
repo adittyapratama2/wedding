@@ -12,7 +12,7 @@ const Header = () => {
         <h5>Dear Mr./Mrs./Ms.</h5>
         <h3>Nama Tamu</h3>
         <br />
-        <h5>You are cordially invited tp our wedding</h5>
+        <h5>You are cordially invited to our wedding</h5>
         <CTA />
 
         <div className="me">

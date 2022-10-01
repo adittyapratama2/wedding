@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
-//import Home from "./components/home/Home";
+import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Location from "./components/location/Location";
 import Galery from "./components/galery/Galery";
@@ -15,6 +15,7 @@ const App = () => {
     <>
       <Header />
       <Nav />
+      <Home />
       <About />
       <Location />
       <Galery />
