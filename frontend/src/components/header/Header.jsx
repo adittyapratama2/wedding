@@ -2,6 +2,8 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/profile.png";
+import AudioPlayer from "./AudioPlayer";
+import tracks from "./tracks";
 
 const Header = () => {
   return (
@@ -14,6 +16,8 @@ const Header = () => {
         <br />
         <h5>You are cordially invited to our wedding</h5>
         <CTA />
+
+        <AudioPlayer tracks={tracks} />
 
         <div className="me">
           <img src={ME} alt="me" />

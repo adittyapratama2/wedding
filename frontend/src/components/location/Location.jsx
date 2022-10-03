@@ -17,7 +17,7 @@ const Location = () => {
             <article className="locations__details">
               <AiOutlineClockCircle />
               <div>
-                <h4>08.00 - 10.00 WIB</h4>
+                <h4>Pukul 08.00 - 10.00 WIB</h4>
               </div>
             </article>
           </div>
@@ -29,7 +29,7 @@ const Location = () => {
             <article className="locations__details">
               <AiOutlineClockCircle />
               <div>
-                <h4>10.00 - 14.00 WIB</h4>
+                <h4>Pukul 10.00 - 14.00 WIB</h4>
               </div>
             </article>
           </div>

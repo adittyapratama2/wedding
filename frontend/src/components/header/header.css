@@ -40,6 +40,20 @@ header {
   font-size: 0.9rem;
 }
 
+/* Music Player */
+.player__up {
+  position: fixed;
+  right: 2.3rem;
+  bottom: 45rem;
+  font-weight: 300;
+}
+
+.player__up button {
+  background: black;
+  border: none;
+  cursor: pointer;
+}
+
 /* ============== Media Queries (Medium Device) ============== */
 @media screen and (max-width: 1024px) {
   header {
