@@ -1,0 +1,16 @@
+.gift__content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.gift__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background: white;
+    color: black;
+    border-radius: 0.4rem;
+}
