@@ -71,6 +71,8 @@
 
   .home__cards {
     gap: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .home__content {
@@ -79,6 +81,8 @@
 
   .home__content p {
     margin: 1rem 0 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 

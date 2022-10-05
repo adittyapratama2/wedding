@@ -1,16 +1,77 @@
 .gift__content {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
 }
 
-.gift__box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-    background: white;
+.gift {
+    background: var(--color-white);
     color: black;
-    border-radius: 0.4rem;
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid white;
+    height: fit-content;
+    transition: var(--transition);
 }
+
+.gift:hover {
+    background: transparent;
+    border-color: white;
+    color: white;
+    cursor: default;
+}
+
+.gift__head {
+    background: black;
+    color: white;
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gift__head h3 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.gift__list {
+    padding: 2rem;
+}
+
+.gift__list li {
+    text-align: center;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.icon-size {
+    size: 2rem;
+}
+
+/* ============== Media Queries (Medium Device) ============== */
+@media screen and (max-width: 1024px) {
+    .gift__content {
+     margin-left: 20px;
+     margin-right: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    }
+  
+    .gift {
+      height: auto;
+    }
+  }
+  
+  /* ============== Media Queries (Small Device) ============== */
+  @media screen and (max-width: 600px) {
+    .gift__content {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .gift__list {
+        padding: 1rem;
+    }
+    
+  }

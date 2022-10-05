@@ -1,0 +1,12 @@
+footer {
+    background: white;
+    color: black;
+    padding: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20rem;
+}
+
+footer h2 {
+    margin-bottom: 5rem;
+}

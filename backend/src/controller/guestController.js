@@ -39,9 +39,9 @@ export const deleteGuest = async (req, res, next) => {
 //GET BY NAME GUEST
 export const getByNameGuest = async (req, res, next) => {
   try {
-    const response = await Guests.findById(req.params.id);
+    const response = await Guests.findOne({ tag_name: req.params.id });
     res.status(200).json(response);
-  } catch (error) {
+  } catch (err) {
     next(err);
   }
 };
