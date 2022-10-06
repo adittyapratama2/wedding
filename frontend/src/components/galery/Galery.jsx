@@ -21,8 +21,19 @@ const Galery = () => {
   return (
     <section id="galery">
       <br />
-      <h2>Our Gallery</h2>
-      <div className="img__container">
+      <h2
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+      >
+        Our Gallery
+      </h2>
+      <div
+        className="img__container"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <div className="container1">
           <img src={IMG1} alt="Selected" className="selected" />
           <div className="imgContainer">

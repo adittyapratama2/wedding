@@ -7,29 +7,47 @@ const Location = () => {
   return (
     <section id="location">
       <br />
-      <h5>Minggu</h5>
-      <h2>16 Oktober 2022</h2>
+      <h5
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000"
+      >
+        Sunday
+      </h5>
+      <h2 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+        16 October 2022
+      </h2>
 
       <div className="container location__container">
-        <div className="location__akad">
+        <div
+          className="location__akad"
+          data-aos="flip-up"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+        >
           <h3>Akad Nikah</h3>
           <div className="location__content">
             <article className="locations__details">
               <AiOutlineClockCircle />
               <div>
-                <h4>Pukul 08.00 - 10.00 WIB</h4>
+                <h4>At 08.00 - 10.00 WIB</h4>
               </div>
             </article>
           </div>
         </div>
 
-        <div className="location__resepsi">
+        <div
+          className="location__resepsi"
+          data-aos="flip-down"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+        >
           <h3>Resepsi Nikah</h3>
           <div className="location__content">
             <article className="locations__details">
               <AiOutlineClockCircle />
               <div>
-                <h4>Pukul 10.00 - 14.00 WIB</h4>
+                <h4>At 10.00 - 14.00 WIB</h4>
               </div>
             </article>
           </div>
@@ -37,12 +55,33 @@ const Location = () => {
       </div>
       <br />
       <div className="location__akad">
-        <h3>Lokasi</h3>
-        <div className="location-img">
+        <h3
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+        >
+          Location
+        </h3>
+        <div
+          className="location-img"
+          data-aos="zoom-out"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+        >
           <img src={Loc} alt="lokasi" />
         </div>
-        <h2>Asstro Grill Garden</h2>
-        <span>
+        <h2
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+        >
+          Asstro Grill Garden
+        </h2>
+        <span
+          data-aos="zoom-out"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+        >
           Jl. R.Ikik Wiradikarta No.4 Yudanegara, Kec. Cihideung, Kota.
           Tasikmalaya, Jawa Barat
         </span>

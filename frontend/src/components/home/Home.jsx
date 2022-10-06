@@ -44,18 +44,24 @@ const Home = () => {
   return (
     <section id="home">
       <br />
-      <h2>Save the date</h2>
+      <h2 data-aos="fade-down" data-aos-duration="2000">
+        Save the date
+      </h2>
 
       <br />
       <div className="container home__container">
-        <div className="home__me">
+        <div className="home__me" data-aos="fade-up" data-aos-duration="3000">
           <div className="home__me-image">
             <img src={ME} alt="me-img" />
           </div>
         </div>
 
         <div className="home__content">
-          <div className="home__cards">
+          <div
+            className="home__cards"
+            data-aos="zoom-in-down"
+            data-aos-duration="2000"
+          >
             <article className="home__card">
               <h5>{timerDays}</h5>
               <small>Days</small>
@@ -77,7 +83,7 @@ const Home = () => {
             </article>
           </div>
           <br />
-          <p>
+          <p data-aos="flip-right" data-aos-duration="2000">
             “And of His signs is that He created for you from yourselves mates
             that you may find tranquility in them; and He placed between you
             affection and mercy. Indeed in that are signs for a people who give
