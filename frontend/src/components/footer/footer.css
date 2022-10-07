@@ -8,8 +8,11 @@ footer {
   bottom: 0;
 }
 
-footer h2 {
-  font-family: "Light";
+.img-container {
+  margin-top: 1rem;
   margin-bottom: 5rem;
-  font-size: 3rem;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -2,7 +2,25 @@
 @font-face {
   font-family: "Light";
   src: local("BallioLight"),
-    url("./assets/fonts/Baselliost.otf") format("truetype");
+    url("./assets/fonts/Baselliost.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Leparis";
+  src: local("LeparisLight"),
+  url("./assets/fonts/Le\ Jour\ Serif.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Haroopath";
+  src: local("HaroopathLight"),
+  url("./assets/fonts/Haroopath.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TropicalCountry";
+  src: local("TropicalLight"),
+  url("./assets/fonts/Tropical\ Country.ttf") format("truetype");
 }
 
 * {

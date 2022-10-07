@@ -11,13 +11,13 @@ header {
 }
 
 .header__container h3 {
-  font-family: "Light";
-  font-size: 3rem;
+  font-family: "Leparis";
+  font-size: 20px;
 }
 
 .header__container h1 {
-  font-family: "Light";
-  font-size: 4rem;
+  font-family: "TropicalCountry";
+  font-size: 3rem;
 }
 
 /* ====== CTA ====== */

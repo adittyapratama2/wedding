@@ -6,7 +6,7 @@
 }
 
 #message {
-  height: 145vh;
+  height: 185vh;
 }
 
 .contact__options {
@@ -62,6 +62,25 @@ select {
   resize: none;
 }
 
+.wish-box__container {
+  border: 1px solid white;
+  padding: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 2rem;
+  height: 300px;
+  overflow: auto;
+}
+
+.wish-box {
+  text-align: left;
+}
+
+hr.new1 {
+  border: 1px solid white;
+}
+
+
 /* ============== Media Queries (Medium Device) ============== */
 @media screen and (max-width: 1024px) {
   .container.contact__container {
@@ -71,6 +90,10 @@ select {
 
   button {
     margin-bottom: 2rem;
+  }
+
+  .container{
+    text-align: center;
   }
 }
 

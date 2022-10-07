@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+#location {
+    height: 95vh;
+  }
+
 .location__container > div {
     background: var(--color-white);
     color: black;

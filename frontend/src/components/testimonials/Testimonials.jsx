@@ -8,6 +8,11 @@ import { GiLovers } from "react-icons/gi";
 const Testimonials = () => {
   return (
     <section id="testimonial">
+      <div
+        className="divider div-transparent div-dot"
+        data-aos="zoom-in-up"
+        data-aos-duration="2000"
+      ></div>
       <br />
       <h2 data-aos="zoom-in-up" data-aos-duration="2000">
         Health Protocol

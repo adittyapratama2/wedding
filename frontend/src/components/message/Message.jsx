@@ -3,6 +3,8 @@ import "./message.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import FormMsg from "./FormMsg";
+import WishBox from "./WishBox";
 
 const Message = () => {
   return (
@@ -25,8 +27,12 @@ const Message = () => {
           >
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>adittyapratama2@gmail.com</h5>
-            <a href="mailto:adittyapratama2@gmail.com" target="__blank">
+            <h5>temira.adittya@gmail.com</h5>
+            <a
+              href="mailto:temira.adittya@gmail.com
+"
+              target="__blank"
+            >
               Send a message
             </a>
           </article>
@@ -38,7 +44,7 @@ const Message = () => {
             <RiMessengerLine className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>Temira Mardagita</h5>
-            <a href="https://wa.me/6281337754708" target="__blank">
+            <a href="https://wa.me/6282214579230" target="__blank">
               Send a message
             </a>
           </article>
@@ -55,35 +61,13 @@ const Message = () => {
             </a>
           </article>
         </div>
-        <form action="" data-aos="fade-down" data-aos-duration="3000">
-          <input
-            id="inputID"
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <select name="status" id="" required>
-            <option value="hadir">Hadir</option>
-            <option value="tidak hadir">Tidak Hadir</option>
-          </select>
-          <textarea
-            id="inputID"
-            name="message"
-            rows="7"
-            placeholder="Your Message"
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
-        </form>
+        <FormMsg />
       </div>
-      <div
-        className="divider div-transparent div-dot"
-        data-aos="zoom-in-up"
-        data-aos-duration="2000"
-      ></div>
+      <div className="container wedding__wish">
+        <h2>Wedding Wishes</h2>
+        <br />
+        <WishBox />
+      </div>
     </section>
   );
 };

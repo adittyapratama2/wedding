@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/profile.png";
-import AudioPlayer from "./AudioPlayer";
-import tracks from "./tracks";
-import { useParams } from "react-router-dom";
 
 const Header = (props) => {
   return (
@@ -12,7 +9,7 @@ const Header = (props) => {
       <div className="container header__container">
         <div data-aos="fade-up" data-aos-duration="2000">
           <h3>The Wedding Of</h3>
-          <h1>Temira and Adittya</h1>
+          <h1>Temira & Adittya</h1>
           <h5>Dear Mr./Mrs./Ms.</h5>
           <h2>{props.data}</h2>
           <br />
@@ -20,8 +17,6 @@ const Header = (props) => {
         </div>
 
         <CTA />
-
-        <AudioPlayer tracks={tracks} />
 
         <div
           className="me"

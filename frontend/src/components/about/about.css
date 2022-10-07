@@ -5,7 +5,7 @@
 }
 
 #about {
-  height: 120vh;
+  height: 130vh;
 }
 
 .about__content h4 {
@@ -13,7 +13,7 @@
   margin-left: 1rem;
   margin-right: 1rem;
   font-style: italic;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.9rem;
 }
 
@@ -169,15 +169,15 @@
   .about__img {
     box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
     margin-top: -3rem;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 
   .about__img2 {
     box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
     margin-top: -2rem;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 
   .p-about {
