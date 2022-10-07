@@ -63,4 +63,7 @@ img {
   .imgContainer div {
     justify-content: center !important;
   }
+  #galery {
+    margin-top: 10rem;
+  }
 }

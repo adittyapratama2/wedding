@@ -60,3 +60,10 @@
     width: var(--container-width-sm);
   }
 }
+
+/* ============== Media Queries (Small Device) ============== */
+@media screen and (max-width: 340px) {
+  .protocol__details > h4 {
+    font-size: 0.5rem;
+  }
+}

@@ -80,3 +80,13 @@ header {
     display: none;
   }
 }
+
+/* ============== Media Queries (Small Device) ============== */
+@media screen and (max-width: 380px) {
+  header {
+    height: 130vh;
+  }
+  .scroll__down {
+    display: none;
+  }
+}

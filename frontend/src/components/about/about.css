@@ -190,5 +190,9 @@
 @media screen and (max-width: 576px) {
 }
 
-@media screen and (max-width: 350px) {
+/* ============== Media Queries (Small Device) ============== */
+@media screen and (max-width: 340px) {
+  #about {
+    height: 140vh;
+  }
 }
