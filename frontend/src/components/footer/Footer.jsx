@@ -3,9 +3,10 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <br />
-      <h2>Temira & Adittya</h2>
+      <p>See you on our big day!</p>
+      <h2>Temira and Adittya</h2>
     </footer>
   );
 };

@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400;500;600&family=Rubik:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "Light";
+  src: local("BallioLight"),
+    url("./assets/fonts/Baselliost.otf") format("truetype");
+}
 
 * {
   margin: 0;
@@ -60,7 +65,7 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+  height: 105vh;
 }
 
 section > h2,
@@ -113,6 +118,30 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+/* ===== Divider ====== */
+
+.divider {
+  position: relative;
+  margin-top: 90px;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(238, 238, 238),
+    transparent
+  );
 }
 
 /* ============== Media Queries (Medium Device) ============== */

@@ -21,7 +21,7 @@ const RootPages = () => {
     const getGuestById = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8000/api/v1/guests/${id}`
+          `https://backend.temira-adittya.my.id/api/v1/guests/${id}`
         );
         setName(response.data.name);
       } catch (err) {
@@ -40,6 +40,7 @@ const RootPages = () => {
       <Galery />
       <Gift />
       <Message />
+      <Testimonials />
       <Footer />
     </div>
   );

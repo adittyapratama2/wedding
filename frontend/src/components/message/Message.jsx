@@ -8,12 +8,21 @@ const Message = () => {
   return (
     <section id="message">
       <br />
-      <h5>Get In Touch</h5>
-      <h2>Contact</h2>
+      <br />
+      <h5 data-aos="zoom-in" data-aos-duration="2000">
+        Get In Touch
+      </h5>
+      <h2 data-aos="fade-out" data-aos-duration="2000">
+        Contact
+      </h2>
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <article
+            className="contact__option"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>adittyapratama2@gmail.com</h5>
@@ -21,7 +30,11 @@ const Message = () => {
               Send a message
             </a>
           </article>
-          <article className="contact__option">
+          <article
+            className="contact__option"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
             <RiMessengerLine className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>Temira Mardagita</h5>
@@ -29,7 +42,11 @@ const Message = () => {
               Send a message
             </a>
           </article>
-          <article className="contact__option">
+          <article
+            className="contact__option"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>Adittya Pratama</h5>
@@ -38,19 +55,20 @@ const Message = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form action="" data-aos="fade-down" data-aos-duration="3000">
           <input
+            id="inputID"
             type="text"
             name="name"
             placeholder="Your Full Name"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
           <select name="status" id="" required>
             <option value="hadir">Hadir</option>
             <option value="tidak hadir">Tidak Hadir</option>
           </select>
           <textarea
+            id="inputID"
             name="message"
             rows="7"
             placeholder="Your Message"
@@ -61,6 +79,11 @@ const Message = () => {
           </button>
         </form>
       </div>
+      <div
+        className="divider div-transparent div-dot"
+        data-aos="zoom-in-up"
+        data-aos-duration="2000"
+      ></div>
     </section>
   );
 };

@@ -10,6 +10,16 @@ header {
   position: relative;
 }
 
+.header__container h3 {
+  font-family: "Light";
+  font-size: 3rem;
+}
+
+.header__container h1 {
+  font-family: "Light";
+  font-size: 4rem;
+}
+
 /* ====== CTA ====== */
 .cta {
   margin-top: 2rem;

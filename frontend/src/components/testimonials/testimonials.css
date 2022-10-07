@@ -1,0 +1,62 @@
+#testimonial {
+  height: 45vh;
+}
+
+.health-protocol-container {
+  text-align: center;
+  gap: 2rem;
+}
+
+.health-protocol-container > div {
+  background: var(--color-white);
+  color: black;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.protocol__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.protocol__details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.protocol__details-icon {
+  font-size: 4rem;
+}
+
+/* ============== Media Queries (Medium Device) ============== */
+@media screen and (max-width: 1024px) {
+  .health-protocol-container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .health-protocol-container > div {
+    padding: 1.5rem;
+  }
+
+  .protocol__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  .protocol__details > h4 {
+    font-size: 0.8rem;
+  }
+}
+
+/* ============== Media Queries (Small Device) ============== */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+}

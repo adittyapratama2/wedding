@@ -2,6 +2,10 @@
   display: flex;
 }
 
+#galery {
+  height: 125vh;
+}
+
 img {
   display: block;
   cursor: pointer;
@@ -31,6 +35,11 @@ img {
   width: 100px;
   height: 100px;
   margin: 0 auto;
+}
+
+.galery-p {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px) {

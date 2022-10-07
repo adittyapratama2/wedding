@@ -12,9 +12,9 @@ const Header = (props) => {
       <div className="container header__container">
         <div data-aos="fade-up" data-aos-duration="2000">
           <h3>The Wedding Of</h3>
-          <h1>Temira & Adittya</h1>
+          <h1>Temira and Adittya</h1>
           <h5>Dear Mr./Mrs./Ms.</h5>
-          <h3>{props.data}</h3>
+          <h2>{props.data}</h2>
           <br />
           <h5>You are cordially invited to our wedding</h5>
         </div>

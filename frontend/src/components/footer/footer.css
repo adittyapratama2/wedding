@@ -1,12 +1,15 @@
 footer {
-    background: white;
-    color: black;
-    padding: 3rem;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 20rem;
+  background: white;
+  color: black;
+  padding: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 20rem;
+  bottom: 0;
 }
 
 footer h2 {
-    margin-bottom: 5rem;
+  font-family: "Light";
+  margin-bottom: 5rem;
+  font-size: 3rem;
 }

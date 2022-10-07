@@ -83,13 +83,15 @@ const Home = () => {
             </article>
           </div>
           <br />
-          <p data-aos="flip-right" data-aos-duration="2000">
-            “And of His signs is that He created for you from yourselves mates
-            that you may find tranquility in them; and He placed between you
-            affection and mercy. Indeed in that are signs for a people who give
-            thought..”
-            <br /> Qs. Ar Rum : 21
-          </p>
+          <div className="text-p">
+            <p data-aos="flip-right" data-aos-duration="2000">
+              “And of His signs is that He created for you from yourselves mates
+              that you may find tranquility in them; and He placed between you
+              affection and mercy. Indeed in that are signs for a people who
+              give thought.”
+              <br /> Qs. Ar Rum : 21
+            </p>
+          </div>
         </div>
       </div>
     </section>

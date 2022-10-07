@@ -4,6 +4,19 @@
   column-gap: 2rem;
 }
 
+#about {
+  height: 120vh;
+}
+
+.about__content h4 {
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-style: italic;
+  margin-top: 2.5rem;
+  margin-bottom: 0.9rem;
+}
+
 .about__social {
   text-align: center;
   row-gap: 1rem;
@@ -71,6 +84,20 @@
   width: 200px;
   height: 200px;
   animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  border: 1px solid rgb(48, 49, 51);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
 }
 
 @keyframes profile__animate {
@@ -151,6 +178,12 @@
     margin-top: -2rem;
     width: 150px;
     height: 150px;
+  }
+
+  .p-about {
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 }
 

@@ -29,6 +29,9 @@ const Galery = () => {
       >
         Our Gallery
       </h2>
+      <p className="galery-p" data-aos="zoom-in" data-aos-duration="2000">
+        A memory that we will treasure forever
+      </p>
       <div
         className="img__container"
         data-aos="fade-up"
