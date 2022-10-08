@@ -1,8 +1,7 @@
 import React from "react";
 import "./gift.css";
-import { BsBank } from "react-icons/bs";
 import BCA from "../../assets/bank-bca.png";
-import BNI from "../../assets/bank-bni.png";
+import BNI from "../../assets/home.png";
 import BRI from "../../assets/bank-bri.png";
 import { BiCopyAlt } from "react-icons/bi";
 
@@ -44,15 +43,8 @@ const Gift = () => {
           </div>
           <ul className="gift__list">
             <li>
-              <p>460732586</p>
-              <p>A/N Temira Mardagita</p>
-              <button
-                className="copy-btn"
-                onClick={() => navigator.clipboard.writeText("460732586")}
-              >
-                <BiCopyAlt />
-                Copy
-              </button>
+              <p>Perum Baitul Jannah Blok S-2</p>
+              <p>Jl.Ir.H.Juanda No.39, Bantarsari, Kec.Bungursari, Kota.Tasikmalaya 46151</p>
             </li>
           </ul>
         </article>

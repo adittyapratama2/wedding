@@ -5,7 +5,7 @@
 }
 
 #about {
-  height: 130vh;
+  height: auto;
 }
 
 .about__content h4 {
@@ -192,7 +192,5 @@
 
 /* ============== Media Queries (Small Device) ============== */
 @media screen and (max-width: 340px) {
-  #about {
-    height: 140vh;
-  }
+
 }

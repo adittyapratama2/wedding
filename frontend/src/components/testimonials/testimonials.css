@@ -1,5 +1,5 @@
 #testimonial {
-  height: 45vh;
+  height: auto;
 }
 
 .health-protocol-container {
@@ -67,3 +67,14 @@
     font-size: 0.5rem;
   }
 }
+
+/* ============== Media Queries (Small Device) ============== */
+@media screen and (max-width: 310px) {
+  .protocol__details > h4 {
+    font-size: 0.4rem;
+  }
+  .protocol__details-icon {
+    font-size: 1rem;
+  }
+}
+
