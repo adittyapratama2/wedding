@@ -20,6 +20,11 @@ const Galery = () => {
   };
   return (
     <section id="galery">
+      <div
+        className="divider div-transparent div-dot"
+        data-aos="zoom-in-up"
+        data-aos-duration="3000"
+      ></div>
       <br />
       <h2
         data-aos="fade-zoom-in"

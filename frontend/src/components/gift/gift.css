@@ -8,6 +8,10 @@
   height: auto;
 }
 
+br {
+  margin-bottom: 2rem;
+}
+
 .text-p {
   text-align: center;
   font-style: italic;

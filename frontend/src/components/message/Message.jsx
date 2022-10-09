@@ -9,7 +9,11 @@ import WishBox from "./WishBox";
 const Message = () => {
   return (
     <section id="message">
-      <br />
+      <div
+        className="divider div-transparent div-dot"
+        data-aos="zoom-in-up"
+        data-aos-duration="3000"
+      ></div>
       <br />
       <h5 data-aos="zoom-in" data-aos-duration="2000">
         Get In Touch

@@ -8,6 +8,12 @@ import { BiCopyAlt } from "react-icons/bi";
 const Gift = () => {
   return (
     <section id="gift">
+      <div
+        className="divider div-transparent div-dot"
+        data-aos="zoom-in-up"
+        data-aos-duration="3000"
+      ></div>
+      <br/>
       <h2 data-aos="zoom-in" data-aos-duration="2000">
         Wedding Gift
       </h2>
