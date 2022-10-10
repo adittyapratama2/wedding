@@ -23,7 +23,9 @@ const HomePage = () => {
       <ul>
         {guests.map((guest) => (
           <li>
-            <Link to={`/guest/${guest.slug}`}>{guest.name}</Link>
+            <Link to={`/guest/${guest.slug}`}>
+              {guest.name} - {guest.address} - {guest.guest} - {guest.status}
+            </Link>
           </li>
         ))}
       </ul>
