@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./home.css";
-import ME from "../../assets/_ZM_7223.jpg";
+import ME from "../../assets/_ZM_73562.jpg";
 
 const Home = () => {
   const [timerDays, setTimerDays] = useState();

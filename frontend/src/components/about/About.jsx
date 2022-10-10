@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import Adit from "../../assets/_ZM_7070.jpg";
 import Data from "./Data";
 import Data2 from "./Data2";
 
