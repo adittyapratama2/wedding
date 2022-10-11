@@ -16,15 +16,16 @@ const WishBox = () => {
     setMessage(response.data);
   };
   return (
-    <div className="container wish-box__container">
+    <div
+      className="container wish-box__container"
+      data-aos="fade-down"
+      data-aos-duration="3000"
+    >
       {messages.map((msg) => (
-        <article
-          className="wish-box"
-          data-aos="fade-down"
-          data-aos-duration="3000"
-          key={msg.id}
-        >
-          <h5>{msg.nama} :</h5>
+        <article className="wish-box" key={msg.id}>
+          <h5>
+            {msg.nama} (<small>{msg.status}</small>):
+          </h5>
           <small>{msg.pesan}</small>
           <hr className="new1" />
         </article>
