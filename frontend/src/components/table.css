@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*design table 1*/
+.table1 {
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+ 
+.table1, th, td {
+    border: 1px solid #999;
+    padding: 8px 20px;
+}
